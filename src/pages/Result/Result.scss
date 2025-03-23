@@ -1,0 +1,46 @@
+.result__percent {
+  margin-bottom: 15px;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.result__list {
+  padding: 15px;
+  border: 1px solid #ddd;
+
+  .result__tag--true {
+    color: #fff;
+    background: green;
+    border-radius: 5px;
+    padding: 3px 10px;
+  }
+
+  .result__tag--false {
+    color: #fff;
+    background: red;
+    border-radius: 5px;
+    padding: 3px 10px;
+  }
+  .result__item--selected {
+    color: red;
+  }
+  .result__item--result {
+    color: green;
+  }
+
+  button {
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: orange;
+    color: #fff;
+  }
+}

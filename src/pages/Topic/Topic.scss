@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  td a {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+  }
+
+  td a:hover {
+    background: orange;
+    color: #fff;
+    border: none;
+  }
+}

@@ -1,0 +1,22 @@
+.main__login {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #ddd;
+
+  .main__title {
+    margin-bottom: 15px;
+  }
+
+  a {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.main__information {
+  line-height: 25px;
+}
