@@ -13,7 +13,7 @@ const store = createStore(allReducers);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/Project-Mini-5">
       <App />
     </BrowserRouter>
   </Provider>
