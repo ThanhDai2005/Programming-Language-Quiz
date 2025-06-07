@@ -13,7 +13,7 @@ const store = createStore(allReducers);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename="/Project-Mini-5">
+    <BrowserRouter basename="/Programming-Language-Quiz">
       <App />
     </BrowserRouter>
   </Provider>

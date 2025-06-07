@@ -2,7 +2,7 @@
   "name": "quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thanhdai2005.github.io/Project-Mini-5",
+  "homepage": "https://thanhdai2005.github.io/Programming-Language-Quiz",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
